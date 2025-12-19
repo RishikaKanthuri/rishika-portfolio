@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComplyPath | EU Compliance Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0B1120 0%, #1d4ed8 100%); }
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2 text-blue-700">
+                <i class="fa-solid fa-layer-group text-2xl"></i>
+                <span class="font-bold text-xl tracking-tight text-slate-900">ComplyPath</span>
+            </div>
+            <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600">
+                <a href="#problem" class="hover:text-blue-600">The Problem</a>
+                <a href="#prototype" class="hover:text-blue-600">Prototype</a>
+                <a href="#about" class="hover:text-blue-600">About the Engineer</a>
+            </div>
+            <a href="#prototype" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-500/30">
+                Try Demo
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-bg text-white pt-32 pb-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block bg-blue-500/20 border border-blue-400/30 px-4 py-1 rounded-full text-xs font-bold tracking-wide mb-6 uppercase">
+                Solving the $160B Trade Gap
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+                Don't Let Compliance <br> <span class="text-blue-400">Freeze Your Exports.</span>
+            </h1>
+            <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+                ComplyPath automates EU regulatory mapping for Canadian electronics SMEs. 
+                We replace <span class="font-bold text-white">$15k consultant fees</span> and <span class="font-bold text-white">16-week delays</span> with code.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#prototype" class="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition shadow-xl">
+                    Launch Prototype
+                </a>
+                <a href="#about" class="border border-blue-400/40 hover:bg-blue-800/50 px-8 py-4 rounded-xl font-bold transition">
+                    Meet the Engineer
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="problem" class="py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">The "Invisible Wall"</h2>
+                <p class="text-slate-500">Why great Canadian products fail to reach Europe.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">High Costs</h3>
+                    <p class="text-sm text-slate-600">Consultants charge <strong>$5k-$15k</strong> upfront per product certification.</p>
+                </div>
+                <div class="p-8 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">16-Week Delays</h3>
+                    <p class="text-sm text-slate-600">Manual back-and-forth kills momentum and misses market windows.</p>
+                </div>
+                <div class="p-8 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-file-contract"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Complex Rules</h3>
+                    <p class="text-sm text-slate-600">Navigating CE, RED, and RoHS directives without a guide is risky.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prototype" class="py-24 bg-slate-100 px-6 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            
+            <div>
+                <span class="text-blue-600 font-bold uppercase text-xs tracking-wider mb-2 block">Live Prototype</span>
+                <h2 class="text-4xl font-bold mb-6 text-slate-900">Automated Compliance Workflow</h2>
+                <p class="text-lg text-slate-600 mb-8">
+                    I built ComplyPath to turn a manual consulting process into a scalable software workflow.
+                </p>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0">1</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Smart Mapper Engine</h4>
+                            <p class="text-sm text-slate-500 mt-1">AI-driven identification of CE, RED, and EMC rules.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0">2</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">AutoDoc Generator</h4>
+                            <p class="text-sm text-slate-500 mt-1">Generates technical files instantly to save weeks of work.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold flex-shrink-0">3</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">SaaS Business Model</h4>
+                            <p class="text-sm text-slate-500 mt-1">$499/mo subscription vs $10k one-time fees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden relative" style="min-height: 550px;">
+                <div class="bg-slate-900 px-4 py-3 flex items-center gap-2">
+                    <div class="flex gap-1.5">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <div class="ml-4 bg-slate-800 px-3 py-1 rounded text-xs text-slate-400 font-mono flex-grow text-center">app.complypath.ca/dashboard</div>
+                </div>
+
+                <div id="screen-1" class="p-8 h-full flex flex-col justify-center fade-in">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                            <i class="fa-solid fa-cube"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">New Product Assessment</h3>
+                        <p class="text-sm text-slate-500">Enter details to map EU regulations.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <label class="text-xs font-bold text-slate-400 uppercase">Product Name</label>
+                            <input type="text" id="p-name" placeholder="e.g. Industrial IoT Sensor" class="w-full border p-3 rounded-lg mt-1 focus:ring-2 focus:ring-blue-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="text-xs font-bold text-slate-400 uppercase">Component Type</label>
+                            <select class="w-full border p-3 rounded-lg mt-1 bg-white">
+                                <option>Wireless Module (Radio)</option>
+                                <option>Passive Component</option>
+                            </select>
+                        </div>
+                        <button onclick="runAnalysis()" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition mt-2">
+                            Run Smart Mapper <i class="fa-solid fa-bolt ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="screen-2" class="hidden h-full flex flex-col fade-in">
+                    <div class="p-6 bg-blue-50 border-b border-blue-100">
+                        <h4 class="font-bold text-blue-900">Compliance Roadmap</h4>
+                        <p class="text-xs text-blue-600 mt-1">Analysis complete for: <span id="display-name" class="font-bold">...</span></p>
+                    </div>
+                    <div class="p-6 space-y-3 overflow-y-auto flex-grow">
+                        <div class="p-3 border rounded-lg bg-white flex justify-between items-center shadow-sm">
+                            <div class="flex gap-3 items-center">
+                                <i class="fa-solid fa-triangle-exclamation text-orange-500"></i>
+                                <div>
+                                    <div class="font-bold text-sm">CE Marking</div>
+                                    <div class="text-xs text-slate-500">Mandatory Safety</div>
+                                </div>
+                            </div>
+                            <span class="text-xs font-bold bg-orange-100 text-orange-700 px-2 py-1 rounded">Required</span>
+                        </div>
+                        <div class="p-3 border rounded-lg bg-white flex justify-between items-center shadow-sm">
+                            <div class="flex gap-3 items-center">
+                                <i class="fa-solid fa-wifi text-blue-500"></i>
+                                <div>
+                                    <div class="font-bold text-sm">RED 2014/53/EU</div>
+                                    <div class="text-xs text-slate-500">Radio Equipment Directive</div>
+                                </div>
+                            </div>
+                            <span class="text-xs font-bold bg-blue-100 text-blue-700 px-2 py-1 rounded">Critical</span>
+                        </div>
+                    </div>
+                    <div class="p-6 border-t bg-slate-50">
+                        <button onclick="generateDocs()" class="w-full bg-green-600 text-white font-bold py-3 rounded-lg hover:bg-green-700 transition shadow-md">
+                            Generate Technical File <i class="fa-solid fa-file-export ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="screen-3" class="hidden h-full flex flex-col fade-in bg-slate-800">
+                    <div class="p-4 bg-slate-900 text-white flex justify-between items-center border-b border-slate-700">
+                        <span class="text-xs font-mono"><i class="fa-solid fa-file-pdf mr-2"></i>Technical_File_Draft.pdf</span>
+                        <span class="bg-green-500 text-white text-[10px] font-bold px-2 py-1 rounded">READY</span>
+                    </div>
+                    <div class="flex-grow p-8 flex items-center justify-center bg-slate-700/50">
+                        <div class="bg-white w-full max-w-xs h-64 p-6 shadow-2xl relative text-[10px] text-slate-400">
+                            <div class="w-8 h-8 mb-4 bg-slate-900 rounded-full flex items-center justify-center text-white font-serif">C</div>
+                            <p class="font-bold text-slate-900 text-xs mb-2">DECLARATION OF CONFORMITY</p>
+                            <p class="mb-2">We declare under sole responsibility that <span class="bg-yellow-100 text-black px-1" id="doc-name">Product</span> complies with:</p>
+                            <ul class="list-disc ml-4 mb-4">
+                                <li>RED 2014/53/EU</li>
+                                <li>RoHS Directive</li>
+                            </ul>
+                            <div class="absolute bottom-6 right-6 w-12 h-12 border-2 border-green-500 rounded-full flex items-center justify-center text-green-500 font-bold opacity-50 transform -rotate-12">
+                                OK
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 bg-white border-t flex gap-3">
+                        <button onclick="reset()" class="w-full border border-slate-300 font-bold py-3 rounded-lg text-slate-600 hover:bg-slate-50">Restart Demo</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-slate-900 text-slate-300 px-6">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+            <div class="w-32 h-32 bg-slate-700 rounded-full border-4 border-slate-600 flex items-center justify-center text-4xl text-slate-500">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-2">Rishika Kanthuri</h2>
+                <div class="flex flex-wrap gap-2 text-sm text-blue-400 font-bold mb-6">
+                    <span>Founder & Engineer</span> • <span>CS Graduate</span> • <span>ML & Salesforce Certified</span>
+                </div>
+                <p class="leading-relaxed mb-8 text-lg">
+                    I built ComplyPath because I saw a gap in the market where software could solve a $160B trade problem. 
+                    <br><br>
+                    <span class="text-white font-bold">I am looking for a Software Engineer role</span> where I can bring this same product-focused engineering mindset to your team.
+                </p>
+                <div class="flex gap-4">
+                    <a href="mailto:rishikakanthuri@gmail.com" class="bg-white text-slate-900 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition">Email Me</a>
+                    <a href="https://linkedin.com" class="border border-slate-600 px-6 py-3 rounded-lg font-bold hover:bg-slate-800 transition">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Prototype Logic
+        function runAnalysis() {
+            const name = document.getElementById('p-name').value;
+            if(!name) { alert('Please enter a product name'); return; }
+            
+            document.getElementById('display-name').innerText = name;
+            document.getElementById('doc-name').innerText = name;
+            
+            document.getElementById('screen-1').classList.add('hidden');
+            document.getElementById('screen-2').classList.remove('hidden');
+        }
+
+        function generateDocs() {
+            document.getElementById('screen-2').classList.add('hidden');
+            document.getElementById('screen-3').classList.remove('hidden');
+        }
+
+        function reset() {
+            document.getElementById('p-name').value = '';
+            document.getElementById('screen-3').classList.add('hidden');
+            document.getElementById('screen-1').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
